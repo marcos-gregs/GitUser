@@ -8,8 +8,9 @@ export const ScreenProfile = ({ ProfileImg, UserName, NickName,  Followers, Publ
             </div>
             <div className='ProfileContent'>
                 
-                     <h1>{UserName}</h1>
-                    <p>{NickName}</p><p>{Bio}</p>
+                    <h1>{UserName}</h1>
+                    <p>{NickName}</p>
+                    <p>{Bio}</p>
               
                 <p className='JoinGit'>{JoinGit}</p>
             </div> 

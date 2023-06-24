@@ -1,16 +1,21 @@
 :root{
+  
     --body-bg-color: #141d2f;
     --inner-bg-color: #1e2a47;
     --logo-color: #fff;
     --secondry-text-color: #fff;
     --secondry-heading-color: #fff;
+    --btn-primary-bg: #0079ff;
+    --btn-primary-hover-bg: #60abff;
+    --no-result-color: #f74646;
 }
 :root body.light-theme{
-  --body-bg-color: #141d2f;
-  --inner-bg-color: #1e2a47;
-  --logo-color: #fff;
-  --secondry-text-color: #fff;
-  --secondry-heading-color: #fff;
+  
+  --body-bg-color: #f6f8ff;
+  --inner-bg-color: #fefefe;
+  --logo-color: #222731;
+  --secondry-text-color: #697c9a;
+  --secondry-heading-color: #2b3442;
 }
 
 body{

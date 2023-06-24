@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ScreenProfile } from "../ScreenProfile/ScreenProfile";
-
+import './FindInputStyle.css'
 const token = import.meta.env.GIT_TOKEN_ACCESS;
 
 const ConsultGitApi = async (eve) =>{
@@ -35,11 +35,18 @@ export const FindInput = ()=>{
   
     )
     return(
-    <><h1>DevFinder</h1>
-   
+    <>
+        <div className="DivHeader">
+            <h1>DevFinder</h1>
+            <p>Ligth-mode </p>
+        </div>
+        <div className="DivInput"> 
             <span></span>
             <input type="text"  value={GetUser} onChange={OnUser}/>
-            <button onClick={ ()=> { GetElement(GetUser) }}> teste </button>
+            
+            <button onClick={ ()=> { GetElement(GetUser) }}>Search</button>
+        </div>
+           
         
             <ScreenProfile  ProfileImg = {DataUser.avatar_url}
              UserName={DataUser.name} 

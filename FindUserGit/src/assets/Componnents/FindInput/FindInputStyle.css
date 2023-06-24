@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.DivHeader{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 50vw;
+margin: 2% auto;
+}
+.DivInput{
+display: relative;
+width: 50vw;
+margin: 0 auto;
+
+}
+.DivInput >input{
+    width: 50vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--inner-bg-color);
+   
+}
+.DivInput >button{
+    position: absolute;
+    top: 16%;
+    right: 26%;
+    height: 3vh;
+    width: 5vw;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--btn-primary-bg);
+    color: var(--secondry-heading-color);
+    transition: all,ease-in,.3s;
+}
+.DivInput >button:hover{
+    color: var(-btn-primary-bg);
+}
+@media (max-width:320px) {
+    .DivHeader{
+        display: flex;
+        flex-direction: column;
+    }
+    .DivInput{
+        margin-left: 15%;
+    }
+        .DivInput >input{
+            width: 70vw;
+            height: 5vh;
+            border-radius: 5px;
+            border: none;
+            background-color: var(--inner-bg-color);
+            
+           
+        }
+
+        .DivInput >button{
+            position: absolute;
+            top: 13.5%;
+            right: 17%;
+            height: 3vh;
+            width: 20vw;
+            font-size: 12px;
+        }
+      
+    
+}
