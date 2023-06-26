@@ -5,12 +5,15 @@ import './FindInputStyle.css'
 const token = import.meta.env.GIT_TOKEN_ACCESS;
 
 const ConsultGitApi = async (eve) =>{
+    
     const GetUser = await fetch(`https://api.github.com/users/${eve}`,{
         headers: {
             Authorization: token
         }
     })
+
     const Data = GetUser.json()
+   
     return Data
 
 }

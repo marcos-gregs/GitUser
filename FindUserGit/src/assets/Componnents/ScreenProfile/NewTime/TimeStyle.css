@@ -3,3 +3,54 @@
     right: 27%;
     top: 21.3%;
 }
+@media (max-width:768px) {
+    
+    .JoinGit{
+       
+        top: 10.3%;
+    }
+}
+
+
+@media (max-width:600px) {
+    .JoinGit{
+       
+        top: 10.3%;
+    }
+}
+
+@media (max-width:425px) {
+    .JoinGit{
+       
+        top: 10.3%;
+    }
+}
+@media (max-width:375px) {
+ 
+    .JoinGit{
+        top: 16%;
+        right: 30%;
+        
+    }
+}
+
+@media (max-width:320px) {
+    .JoinGit{
+       
+        top: 16%;
+    }
+}
+@media (max-width:280px) {
+ 
+    .JoinGit{
+       
+        top: 16%;
+    }
+}
+@media (max-width:260px) {
+ 
+    .JoinGit{
+       
+        top: 15%;
+    }
+}

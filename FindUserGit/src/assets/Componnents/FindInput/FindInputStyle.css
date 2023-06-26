@@ -44,7 +44,7 @@ margin: 0 auto;
         margin-left: 15%;
     }
     .DivInput >input{
-            width: 70vw;
+            width:75vw;
             height: 5vh;
             border-radius: 5px;
             border: none;
@@ -55,85 +55,50 @@ margin: 0 auto;
 
         .DivInput >button{
            
-            top: 16.5%;
+            top: 10.8%;
             right: 16%;
             height: 3vh;
             width: 20vw;
             font-size: 12px;
         }
 }
-@media (max-width:700px) {
- 
+
+
+@media (max-width:600px) {
     .DivInput >button{
-        position: absolute;
-        top: 15.6%;
+        
+        top: 10%;
         right: 17%;
         height: 3vh;
         width: 20vw;
         font-size: 12px;
     }
 }
-@media (max-width:620px) {
- 
+
+@media (max-width:425px) {
     .DivInput >button{
-        position: absolute;
-        top: 15.25%;
+        
+        top: 9.5%;
         right: 17%;
         height: 3vh;
         width: 20vw;
         font-size: 12px;
     }
 }
-@media (max-width:580px) {
- 
-    .DivInput >button{
-        position: absolute;
-        top: 15%;
-        right: 17%;
-        height: 3vh;
-        width: 20vw;
-        font-size: 12px;
+@media (max-width:375px) {
+
+    .DivInput >input{
+        position: relative;
+        right: 20%;
+        width: 90vw;
+        height: 5vh;
+           
     }
-}
-@media (max-width:520px) {
- 
-    .DivInput >button{
-        position: absolute;
-        top: 14.6%;
-        right: 17%;
-        height: 3vh;
-        width: 20vw;
-        font-size: 12px;
-    }
-}
-@media (max-width:480px) {
- 
-    .DivInput >button{
-        position: absolute;
-        top: 14.5%;
-        right: 17%;
-        height: 3vh;
-        width: 20vw;
-        font-size: 12px;
-    }
-}
-@media (max-width:420px) {
- 
-    .DivInput >button{
-        position: absolute;
-        top: 14%;
-        right: 17%;
-        height: 3vh;
-        width: 20vw;
-        font-size: 12px;
-    }
-}
-@media (max-width:370px) {
- 
+
         .DivInput >button{
             position: absolute;
-            top: 13.7%;
-            right: 17%;
+            top: 9.2%;
+            right: 7%;
             height: 3vh;
             width: 20vw;
             font-size: 12px;
@@ -141,29 +106,39 @@ margin: 0 auto;
 }
 
 @media (max-width:320px) {
+   
     .DivHeader{
         display: flex;
         flex-direction: column;
     }
+
     .DivInput{
         margin-left: 15%;
     }
-    .DivInput >input{
-            width: 70vw;
-            height: 5vh;
-            border-radius: 5px;
-            border: none;
-            background-color: var(--inner-bg-color); 
-        }
 
-        .DivInput >button{
-            position: absolute;
-            top: 14%;
-            right: 17%;
-            height: 3vh;
-            width: 20vw;
-            font-size: 12px;
-        }
+    .DivInput >input{
+        position: relative;
+        right: 20%;
+        width: 90vw;
+        height: 5vh;
+           
+    }
+
+    .DivInput >button{
+        top: 9.4%;
+        right: 9%;
+        height: 3vh;
+        width: 20vw;
+    }
+}
+@media (max-width:280px) {
+ 
+    .DivInput >button{
+        top: 8.8%;
+        right: 17%;
+        height: 3vh;
+        width: 20vw;  
+    }
 }
 
 
