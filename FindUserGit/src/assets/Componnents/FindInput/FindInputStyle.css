@@ -3,15 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.DivHeader{
 
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-width: 50vw;
-margin: 2% auto;
-}
 .DivInput{
 display: relative;
 width: 50vw;
@@ -41,7 +33,9 @@ margin: 0 auto;
 .DivInput >button:hover{
     color: var(-btn-primary-bg);
 }
-@media (max-width:320px) {
+
+@media (max-width:768px) {
+    
     .DivHeader{
         display: flex;
         flex-direction: column;
@@ -49,7 +43,7 @@ margin: 0 auto;
     .DivInput{
         margin-left: 15%;
     }
-        .DivInput >input{
+    .DivInput >input{
             width: 70vw;
             height: 5vh;
             border-radius: 5px;
@@ -60,13 +54,116 @@ margin: 0 auto;
         }
 
         .DivInput >button{
+           
+            top: 16.5%;
+            right: 16%;
+            height: 3vh;
+            width: 20vw;
+            font-size: 12px;
+        }
+}
+@media (max-width:700px) {
+ 
+    .DivInput >button{
+        position: absolute;
+        top: 15.6%;
+        right: 17%;
+        height: 3vh;
+        width: 20vw;
+        font-size: 12px;
+    }
+}
+@media (max-width:620px) {
+ 
+    .DivInput >button{
+        position: absolute;
+        top: 15.25%;
+        right: 17%;
+        height: 3vh;
+        width: 20vw;
+        font-size: 12px;
+    }
+}
+@media (max-width:580px) {
+ 
+    .DivInput >button{
+        position: absolute;
+        top: 15%;
+        right: 17%;
+        height: 3vh;
+        width: 20vw;
+        font-size: 12px;
+    }
+}
+@media (max-width:520px) {
+ 
+    .DivInput >button{
+        position: absolute;
+        top: 14.6%;
+        right: 17%;
+        height: 3vh;
+        width: 20vw;
+        font-size: 12px;
+    }
+}
+@media (max-width:480px) {
+ 
+    .DivInput >button{
+        position: absolute;
+        top: 14.5%;
+        right: 17%;
+        height: 3vh;
+        width: 20vw;
+        font-size: 12px;
+    }
+}
+@media (max-width:420px) {
+ 
+    .DivInput >button{
+        position: absolute;
+        top: 14%;
+        right: 17%;
+        height: 3vh;
+        width: 20vw;
+        font-size: 12px;
+    }
+}
+@media (max-width:370px) {
+ 
+        .DivInput >button{
             position: absolute;
-            top: 13.5%;
+            top: 13.7%;
             right: 17%;
             height: 3vh;
             width: 20vw;
             font-size: 12px;
         }
-      
-    
 }
+
+@media (max-width:320px) {
+    .DivHeader{
+        display: flex;
+        flex-direction: column;
+    }
+    .DivInput{
+        margin-left: 15%;
+    }
+    .DivInput >input{
+            width: 70vw;
+            height: 5vh;
+            border-radius: 5px;
+            border: none;
+            background-color: var(--inner-bg-color); 
+        }
+
+        .DivInput >button{
+            position: absolute;
+            top: 14%;
+            right: 17%;
+            height: 3vh;
+            width: 20vw;
+            font-size: 12px;
+        }
+}
+
+

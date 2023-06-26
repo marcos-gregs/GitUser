@@ -29,11 +29,7 @@
   
     margin-left: 5%;
 }
-.JoinGit{
-    position: absolute;
-    right: 27%;
-    top: 47.3%;
-}
+
 .MiddleCotent{
     display: flex;
     flex-direction: row;
@@ -54,6 +50,67 @@
     grid-template-columns: repeat(2,1fr);
     
 }
+@media (max-width:768px) {
+    
+    .PersonProfile{
+        margin: 5% auto;
+        width: 70vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .ImgTop{
+       margin: 15% auto;
+        background-color: rgba(240, 248, 255, 0);
+        width: 20vw;
+        height: 12vh;
+    }
+    
+    .ImgTop > img{ 
+        border-radius: 50%;
+        width: 20vw;
+        height: 12vh;
+    }
+    .TopContent{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+    .ProfileContent{
+        width: 90%;
+        min-width: 10vh;
+        max-height: 40vh;
+    }
+    
+    .MiddleCotent{
+    
+       height: 10vh;
+       width: 90%;
+       margin-left: 5%;
+       margin-top: 5%;
+       margin-bottom: 5%;
+       justify-content: space-around;
+       background-color: var(--body-bg-color);
+       border-radius: 12px;
+       font-size: 11px;
+       padding-top: 5%;
+    
+    }
+    
+    .BottomContent{
+        margin-left: 5%;
+        margin-top: 2%;
+        row-gap: 10%;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+}
+    
+    
 @media (max-width:320px) {
     
 .PersonProfile{
@@ -63,8 +120,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-
-
 }
 
 .ImgTop{
@@ -86,13 +141,10 @@
 }
 .ProfileContent{
     width: 90%;
-    height: 40vh;
+    min-width: 10vh;
+    max-height: 40vh;
 }
-.JoinGit{
-    position: absolute;
-    right: 27%;
-    top: 21.3%;
-}
+
 .MiddleCotent{
 
    height: 10vh;

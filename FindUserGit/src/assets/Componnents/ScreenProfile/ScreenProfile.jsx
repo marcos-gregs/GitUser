@@ -1,6 +1,9 @@
 import './ScreeProfileStyle.css'
+import { NewTime } from './NewTime/NewTime'
+
 export const ScreenProfile = ({ ProfileImg, UserName, NickName,  Followers, PublicRepo, Following,JoinGit, Bio,Location,Blog,Twitter,Company }) =>{
-    return(<>
+
+   return(<>
         <section className="PersonProfile">
         <div className="TopContent">
            <div className='ImgTop'>
@@ -12,7 +15,7 @@ export const ScreenProfile = ({ ProfileImg, UserName, NickName,  Followers, Publ
                     <p>{NickName}</p>
                     <p>{Bio}</p>
               
-                <p className='JoinGit'>{JoinGit}</p>
+            <NewTime JoinComunity= {JoinGit} />
             </div> 
            
         </div>

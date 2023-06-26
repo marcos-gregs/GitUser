@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { ScreenProfile } from "../ScreenProfile/ScreenProfile";
+import  dayjs  from 'dayjs'
 import './FindInputStyle.css'
 const token = import.meta.env.GIT_TOKEN_ACCESS;
 
@@ -15,11 +16,11 @@ const ConsultGitApi = async (eve) =>{
 }
 
 export const FindInput = ()=>{
+  
 
+    const [ GetUser, setGetUser ]= useState('')
 
-    const[ GetUser, setGetUser ]= useState('')
-
-    const[DataUser,setDataUser] = useState({})
+    const [ DataUser, setDataUser] = useState({})
    
     const OnUser = (eve)=>{
         setGetUser(eve.target.value)
@@ -30,16 +31,16 @@ export const FindInput = ()=>{
         ConsultUser()
         
     }
-    useEffect(()=>{ConsultGitApi('octocat').then(res=> setDataUser(res))},
+    
+
+    useEffect(() =>{ ConsultGitApi('octocat').then(res=> setDataUser(res))},
     []
   
     )
+  
     return(
     <>
-        <div className="DivHeader">
-            <h1>DevFinder</h1>
-            <p>Ligth-mode </p>
-        </div>
+      
         <div className="DivInput"> 
             <span></span>
             <input type="text"  value={GetUser} onChange={OnUser}/>
@@ -61,7 +62,6 @@ export const FindInput = ()=>{
              Twitter={DataUser.twitter_username}
              Company={DataUser.company} 
               />
-            {console.log(DataUser)}
-
+   
     </>)
 }
