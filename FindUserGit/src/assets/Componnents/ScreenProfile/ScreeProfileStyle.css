@@ -50,6 +50,47 @@
     grid-template-columns: repeat(2,1fr);
     
 }
+@media (max-width:768px) {
+
+    .PersonProfile{
+        width: 90vw;
+    }
+    
+    .ImgTop{
+   
+        background-color: rgba(240, 248, 255, 0);
+        width: 16vw;
+        height: 10vh;
+    }
+    
+    .ImgTop > img{ 
+        border-radius: 50%;
+        width: 15vw;
+        height: 10vh;
+    }
+    .TopContent{
+        flex-direction: row;
+
+    }
+    .ProfileContent{
+        margin-left: 5%;
+    }
+    .ProfileContent >p{
+        margin-bottom: 6%;
+    }
+    
+    .MiddleCotent{
+       margin-left: 2.5vw;
+       width: 95%;
+       height: 7vh;
+       align-items: center;
+    }
+    
+    .BottomContent{
+        width: 95%;
+        margin-left: 2.5vw;margin-top:6% ;       
+    }
+}
 @media (max-width:475px) {
 
     .PersonProfile{

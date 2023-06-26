@@ -1,21 +1,57 @@
+
+
 .JoinGit{
     position: absolute;
     right: 27%;
-    top: 21.3%;
+    top:27.5%;
 }
 @media (max-width:768px) {
     
     .JoinGit{
-       
-        top: 10.3%;
+        top: 27%;
+        right: 55%;
     }
 }
-
-
-@media (max-width:600px) {
+@media (max-width:725px) {
     .JoinGit{
        
-        top: 10.3%;
+        top: 27%;
+        right: 54%;
+    }
+}
+@media (max-width:675px) {
+    .JoinGit{
+       
+        top: 25.5%;
+        right: 52%;
+    }
+}
+@media (max-width:625px) {
+    .JoinGit{
+       
+        top: 24.8%;
+        right:51%;
+    }
+}
+@media (max-width:575px) {
+    .JoinGit{
+       
+        top: 24%;
+        right: 49%;
+    }
+}
+@media (max-width:525px) {
+    .JoinGit{
+       
+        top: 23.5%;
+        right: 47%;
+    }
+}
+@media (max-width:475px) {
+    .JoinGit{
+       
+        top: 22.7%;
+        right: 45%;
     }
 }
 
@@ -24,6 +60,20 @@
        
         top: 22%;
         right: 42%;
+    }
+}
+@media (max-width:400px) {
+ 
+    .JoinGit{
+        top: 21.5%;
+        right: 38.7%;
+    }
+}
+@media (max-width:390px) {
+ 
+    .JoinGit{
+        top: 21.5%;
+        right: 38.7%;
     }
 }
 @media (max-width:375px) {
