@@ -76,14 +76,22 @@ margin: 0 auto;
 }
 
 @media (max-width:425px) {
+    .DivInput >input{
+        position: relative;
+        right: 20%;
+        width: 90vw;
+        height: 5vh;
+ 
+    }
     .DivInput >button{
-        
+        position: absolute;
         top: 9.5%;
-        right: 17%;
+        right: 7%;
         height: 3vh;
         width: 20vw;
         font-size: 12px;
     }
+       
 }
 @media (max-width:375px) {
 

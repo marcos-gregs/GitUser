@@ -22,7 +22,8 @@
 @media (max-width:425px) {
     .JoinGit{
        
-        top: 10.3%;
+        top: 22%;
+        right: 42%;
     }
 }
 @media (max-width:375px) {
@@ -30,7 +31,6 @@
     .JoinGit{
         top: 16%;
         right: 30%;
-        
     }
 }
 
