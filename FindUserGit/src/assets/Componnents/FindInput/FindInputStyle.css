@@ -20,7 +20,7 @@ margin: 0 auto;
 }
 .DivInput >button{
     position: absolute;
-    top: 16%;
+    top: 11.8%;
     right: 26%;
     height: 3vh;
     width: 5vw;
@@ -187,7 +187,7 @@ margin: 0 auto;
         }
 }
 
-@media (max-width:320px) {
+@media screen and (min-width:280px) and (max-width:320px) {
    
     .DivHeader{
         display: flex;
@@ -211,15 +211,6 @@ margin: 0 auto;
         right: 9%;
         height: 3vh;
         width: 20vw;
-    }
-}
-@media (max-width:280px) {
- 
-    .DivInput >button{
-        top: 8.8%;
-        right: 17%;
-        height: 3vh;
-        width: 20vw;  
     }
 }
 

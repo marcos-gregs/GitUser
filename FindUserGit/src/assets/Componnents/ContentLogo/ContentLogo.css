@@ -15,22 +15,22 @@
 }
 .Moon{
   
-    width: 2vw;
-    height: 2vw;
+    width: 1vw;
+    height: 1vw;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-image: url('../../../../public/icon-moon.svg');
 }
 .Sun{
     
-    width: 2vw;
-    height: 2vw;
+    width: 1vw;
+    height: 1vw;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-image: url('../../../../public/icon-sun.svg');
   
 }
-@media (max-width:768px) {
+@media screen and(max-width:768px) {
     
     .DivHeader{
         display: flex;
@@ -56,30 +56,30 @@
     }
 }
     
-    
 
-@media (max-width:320px) {
+@media screen and (min-width:320px) and (max-width:425px) {
     .DivHeader{
         display: flex;
         flex-direction: column;
     }
-    .DivHeader>p{
-        display: flex;
-        min-width: 6.5rem;
-        justify-content: space-around;
-      
+    .DivHeader > p {
+         margin-top: 2%;
       
     }
     .Moon{
-        width: 7.5vw;
-        height:7.5vw;
+        width: 5vw;
+        height:4.5vw;
         background-position: center;
+        background-size: contain;
+        margin-left: 2%;
         
     }
     .Sun{
-        width: 7.5vw;
-        height:7.5vw;
+        width: 5.5vw;
+        height:5.5vw;
+        background-size: cover;
         background-position: center;
+        margin-left: 2%;
     }
 }
 

@@ -5,11 +5,11 @@ export const ContentLogo = ()=>{
     const [Icon ,setIcon] =useState('Moon')
     const [Mode,SetMode] = useState('Light-mode')
     const AlterMode = ()=>{
-        if(Mode ==='Light-mode'){
-             SetMode('Dark-mode')
+        if(Mode ==='Light-mode '){
+             SetMode('Dark-mode ')
         }
-        if(Mode ==='Dark-mode'){
-            SetMode('Light-mode')
+        if(Mode ==='Dark-mode '){
+            SetMode('Light-mode ')
         }
         const body = document.querySelector('body')
         body.classList.toggle('light-theme')

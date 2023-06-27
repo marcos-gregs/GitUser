@@ -2,7 +2,7 @@
 
 .JoinGit{
     position: absolute;
-    right: 27%;
+    right: 29.5%;
     top:27.5%;
 }
 @media (max-width:768px) {
@@ -12,95 +12,62 @@
         right: 55%;
     }
 }
-@media (max-width:725px) {
+@media screen and (min-width:525px) and (max-width:600px) {
     .JoinGit{
        
-        top: 27%;
-        right: 54%;
+        top: 24.5%;
+        right: 47.8%;
     }
 }
-@media (max-width:675px) {
-    .JoinGit{
-       
-        top: 25.5%;
-        right: 52%;
-    }
-}
-@media (max-width:625px) {
-    .JoinGit{
-       
-        top: 24.8%;
-        right:51%;
-    }
-}
-@media (max-width:575px) {
+@media screen and (min-width:500px) and (max-width:524px) {
     .JoinGit{
        
         top: 24%;
-        right: 49%;
+        right: 46.5%;
     }
 }
-@media (max-width:525px) {
+
+@media screen and (min-width:476px) and (max-width:499px) {
     .JoinGit{
        
+        top: 24%;
+        right: 46%;
+    }
+}
+@media screen and (min-width:450px) and (max-width:475px) {
+    .JoinGit{
+       
+        top: 24%;
+        right: 44%;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:449px) {
+    .JoinGit{
+       
+        top: 23%;
+        right: 43%;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:425px) {
+ 
+    .JoinGit{
         top: 23.5%;
-        right: 47%;
+        right: 42%
     }
 }
-@media (max-width:475px) {
+@media screen and (min-width:376px) and (max-width:400px) {
+ 
     .JoinGit{
-       
-        top: 22.7%;
-        right: 45%;
+        top: 23%;
+        right: 40%;
     }
 }
 
-@media (max-width:425px) {
+@media screen and (min-width:320px) and (max-width:375px) {
     .JoinGit{
-       
-        top: 22%;
-        right: 42%;
-    }
-}
-@media (max-width:400px) {
- 
-    .JoinGit{
-        top: 21.5%;
-        right: 38.7%;
-    }
-}
-@media (max-width:390px) {
- 
-    .JoinGit{
-        top: 21.5%;
-        right: 38.7%;
-    }
-}
-@media (max-width:375px) {
- 
-    .JoinGit{
-        top: 16%;
         right: 30%;
-    }
-}
-
-@media (max-width:320px) {
-    .JoinGit{
-       
         top: 16%;
-    }
-}
-@media (max-width:280px) {
- 
-    .JoinGit{
-       
-        top: 16%;
-    }
-}
-@media (max-width:260px) {
- 
-    .JoinGit{
-       
-        top: 15%;
     }
 }
