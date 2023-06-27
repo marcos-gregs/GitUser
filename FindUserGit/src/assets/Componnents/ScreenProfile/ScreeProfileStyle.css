@@ -55,10 +55,10 @@
     grid-template-columns: repeat(2,1fr);
     
 }
-@media (max-width:768px) {
+@media screen and (min-width:768px) and (max-width:1024px) {
 
     .PersonProfile{
-        width: 90vw;
+        width: 50vw;
     }
     
     .ImgTop{
@@ -85,8 +85,9 @@
     }
     
     .MiddleCotent{
-       margin-left: 2.5vw;
-       width: 95%;
+        margin-top: 5%;
+        margin-left: 1.5vw;
+        width: 95%;
        height: 7vh;
        align-items: center;
     }
@@ -96,10 +97,10 @@
         margin-left: 2.5vw;margin-top:6% ;       
     }
 }
-@media (max-width:475px) {
+@media screen and (min-width:425px) and (max-width:475px) {
 
     .PersonProfile{
-        width: 90vw;
+        width: 70vw;
     }
     
     .ImgTop{
@@ -116,21 +117,20 @@
     }
     .TopContent{
         flex-direction: row;
+       
 
     }
     .ProfileContent{
         margin-left: 5%;
+       
+        
     }
     .ProfileContent >p{
-        margin-bottom: 6%;
+        margin-bottom: 10%;
+        
     }
     
-    .MiddleCotent{
-       margin-left: 2.5vw;
-       width: 95%;
-       height: 7vh;
-       align-items: center;
-    }
+    
     
     .BottomContent{
         width: 95%;

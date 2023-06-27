@@ -2,7 +2,7 @@ import './ScreeProfileStyle.css'
 import { NewTime } from './NewTime/NewTime'
 
 export const ScreenProfile = ({ ProfileImg, UserName, NickName,  Followers, PublicRepo, Following,JoinGit, Bio,Location,Blog,Twitter,Company }) =>{
-
+   
    return(<>
         <section className="PersonProfile">
         <div className="TopContent">
@@ -13,7 +13,7 @@ export const ScreenProfile = ({ ProfileImg, UserName, NickName,  Followers, Publ
                 
                     <h1>{UserName}</h1>
                     <p>{NickName}</p>
-                    <p>{Bio}</p>
+                    <p>{Bio ? "" : "No has bio"}</p>
               
             <NewTime JoinComunity= {JoinGit} />
             </div> 
@@ -40,10 +40,10 @@ export const ScreenProfile = ({ ProfileImg, UserName, NickName,  Followers, Publ
  
         </div>
         <div className='BottomContent'>
-            <span><i className="fa-solid fa-location-dot"></i> {Location}</span>
-            <span><i className="fa-brands fa-twitter"></i> {Twitter}</span>
-            <span><i className="fa-solid fa-link"></i> {Blog}</span>
-            <span><i className="fa-regular fa-building"></i> {Company}</span>
+            <span><i className="fa-solid fa-location-dot"></i> { Location ? "" : "No has location"}</span>
+            <span><i className="fa-brands fa-twitter"></i> {Twitter ? "" :  "No has twitter"}</span>
+            <span><i className="fa-solid fa-link"></i> {Blog ? "" : "No has blog"}</span>
+            <span><i className="fa-regular fa-building"></i> {Company ? "" : "No has company"}</span>
         </div>
         </section>
     </>)
