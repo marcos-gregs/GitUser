@@ -46,7 +46,7 @@
    width: 65%;
   margin-left: 30%;
    height: 10vh;
-   
+   color: var(--secondry-heading-color);
    display: flex;
    flex-direction: row;
    justify-content: space-around;

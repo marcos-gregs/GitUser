@@ -30,7 +30,9 @@ margin: 0 auto;
     color: var(--secondry-heading-color);
     transition: all,ease-in,.3s;
 }
-
+i{
+    color: var(--secondry-heading-color);
+}
 .DivInput >button:hover{
     color: var(-btn-primary-bg);
 }
@@ -107,7 +109,7 @@ margin: 0 auto;
     }
        
 }
-@media (max-width:375px) {
+@media screen and (min-width:320px) and (max-width:425px) {
 
     .DivInput >input{
         position: relative;
