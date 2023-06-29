@@ -30,10 +30,23 @@ margin: 0 auto;
     color: var(--secondry-heading-color);
     transition: all,ease-in,.3s;
 }
+
 .DivInput >button:hover{
     color: var(-btn-primary-bg);
 }
-@media screen and (min-width:1024px) and (max-width:1400px){
+
+@media screen and (min-width:1240px) and (max-width:1400px){
+    
+    .DivInput >button{
+    
+        top: 15%;
+        right: 26%;
+        height: 3vh;
+        width: 10vw;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1240px){
     
     .DivInput >button{
     
@@ -78,15 +91,15 @@ margin: 0 auto;
 @media screen and (min-width:425px) and (max-width:500px)  {
     .DivInput >input{
         position: relative;
-        right: 20%;
-        width: 70vw;
+        right: 40%;
+        width: 90vw;
         height: 5vh;
            
     }
     .DivInput >button{
         position: absolute;
-        top: 10.5%;
-        right: 20%;
+        top: 7%;
+        right: 6.5%;
         width: 15vw;
       
        
@@ -98,14 +111,14 @@ margin: 0 auto;
 
     .DivInput >input{
         position: relative;
-        right: 20%;
+        right: 40%;
         width: 90vw;
         height: 5vh;
            
     }
 
         .DivInput >button{ 
-            top: 9.2%;
+            top: 7%;
             right: 8%;
             height: 3vh;
             width: 20vw;    

@@ -5,46 +5,50 @@ export const ScreenProfile = ({ ProfileImg, UserName, NickName,  Followers, Publ
    
    return(<>
         <section className="PersonProfile">
-        <div className="TopContent">
-           <div className='ImgTop'>
-            <img src={ProfileImg} alt="" srcSet="" />
-            </div>
-            <div className='ProfileContent'>
+                <div className="TopContent">
+                   
+                    <div className='ImgTop'>
+                        <img src={ProfileImg} alt="" srcSet="" />
+                    </div>
+                   
+                    <div className='ProfileContent'>
+                        <div className='ProfileNameContent'>
+                            <h1>{UserName}</h1> <NewTime JoinComunity= {JoinGit} />
+                        </div>
+                        
+                            <p>{NickName}</p>
+                            <p>{Bio }</p>
+                    
                 
-                    <h1>{UserName}</h1>
-                    <p>{NickName}</p>
-                    <p>{Bio ? "" : "No has bio"}</p>
-              
-            <NewTime JoinComunity= {JoinGit} />
-            </div> 
-           
-        </div>
-        <div className='MiddleCotent'>
+                    </div> 
+                
+                </div>
+            <div className='MiddleCotent'>
+                
+                <div>
+                <p>Followers</p>
+                <p>{Followers}</p> 
+                </div>
+                
+                <div>
+                <p>Public Repositories</p>
+                <p>{PublicRepo}</p>
+                </div>
             
             <div>
-            <p>Followers</p>
-            <p>{Followers}</p> 
+                <p>
+                Following
+                </p>
+                <p>{Following}</p>
             </div>
-            
-            <div>
-            <p>Public Repositories</p>
-            <p>{PublicRepo}</p>
+    
             </div>
-           
-           <div>
-            <p>
-            Following
-            </p>
-            <p>{Following}</p>
-           </div>
- 
-        </div>
-        <div className='BottomContent'>
-            <span><i className="fa-solid fa-location-dot"></i> { Location ? "" : "No has location"}</span>
-            <span><i className="fa-brands fa-twitter"></i> {Twitter ? "" :  "No has twitter"}</span>
-            <span><i className="fa-solid fa-link"></i> {Blog ? "" : "No has blog"}</span>
-            <span><i className="fa-regular fa-building"></i> {Company ? "" : "No has company"}</span>
-        </div>
+            <div className='BottomContent'>
+                <span><i className="fa-solid fa-location-dot"></i> {Location}</span>
+                <span><i className="fa-brands fa-twitter"></i> {Twitter }</span>
+                <span><i className="fa-solid fa-link"></i> {Blog}</span>
+                <span><i className="fa-regular fa-building"></i> {Company}</span>
+            </div>
         </section>
     </>)
 }

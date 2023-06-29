@@ -36,6 +36,7 @@ export const FindInput = ()=>{
     }
     
 
+
     useEffect(() =>{ ConsultGitApi('octocat').then(res=> setDataUser(res))},
     []
   
@@ -51,20 +52,20 @@ export const FindInput = ()=>{
             <button onClick={ ()=> { GetElement(GetUser) }}>Search</button>
         </div>
            
-        
-            <ScreenProfile  ProfileImg = {DataUser.avatar_url}
-             UserName={DataUser.name} 
-             NickName={ DataUser.login}  
-             Followers={DataUser.followers}
-             PublicRepo={DataUser.public_repos}
-             Following={DataUser.following}
-             JoinGit ={DataUser.created_at}
-             Bio={DataUser.bio}
-             Location ={DataUser.location}
-             Blog = {DataUser.blog} 
-             Twitter={DataUser.twitter_username}
-             Company={DataUser.company} 
-              />
+        <ScreenProfile  ProfileImg = {DataUser.avatar_url}
+        UserName={DataUser.name} 
+        NickName={ DataUser.login}  
+        Followers={DataUser.followers}
+        PublicRepo={DataUser.public_repos}
+        Following={DataUser.following}
+        JoinGit ={DataUser.created_at}
+        Bio={DataUser.bio}
+        Location ={DataUser.location}
+        Blog = {DataUser.blog} 
+        Twitter={DataUser.twitter_username}
+        Company={DataUser.company} 
+         />
+ 
    
     </>)
 }

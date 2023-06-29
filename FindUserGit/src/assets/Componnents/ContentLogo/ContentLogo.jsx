@@ -3,13 +3,13 @@ import'./ContentLogo.css'
 
 export const ContentLogo = ()=>{
     const [Icon ,setIcon] =useState('Moon')
-    const [Mode,SetMode] = useState('Light-mode')
+    const [Mode,SetMode] = useState('Dark')
     const AlterMode = ()=>{
-        if(Mode ==='Light-mode '){
-             SetMode('Dark-mode ')
+        if(Mode ==='Light'){
+             SetMode('Dark')
         }
-        if(Mode ==='Dark-mode '){
-            SetMode('Light-mode ')
+        if(Mode ==='Dark'){
+            SetMode('Light')
         }
         const body = document.querySelector('body')
         body.classList.toggle('light-theme')

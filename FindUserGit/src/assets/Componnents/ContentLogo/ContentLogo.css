@@ -60,7 +60,8 @@
 @media screen and (min-width:320px) and (max-width:425px) {
     .DivHeader{
         display: flex;
-        flex-direction: column;
+      justify-content: space-between;
+      width: 90vw;
     }
     .DivHeader > p {
          margin-top: 2%;
